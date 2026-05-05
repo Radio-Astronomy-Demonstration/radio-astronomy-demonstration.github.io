@@ -1,7 +1,7 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
-    width: 70%;
+    width: 90%;
 }
 /* a {
     text-decoration: none;
@@ -62,4 +62,19 @@ li {
     color: #016d18;
     font-size: 1.2em;
     line-height: 1.6em;
+}
+
+figcaption p {
+    color: #016d18;
+    font-size: 0.8em;
+}
+
+.img-container {
+    display: flex;
+}
+
+.img-container figure {
+    flex: 50%;
+    padding: 0;
+    margin: 5px;
 }
